@@ -1,0 +1,183 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c9eafc; /* Light blue background for the entire page */
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+}
+
+header {
+    background-color: #246dc7; /* Darker blue for the header */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-left: 240px;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.Key-Achievements,
+.Description,
+.Responsibilities,
+.Duration{
+    font-weight: 600;
+}
+
+.con{
+    display: flex;
+}
+
+.con i{
+    padding-left: 4px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.525);
+    border-color: black solid;
+}
+
+.container {
+    display: flex; /* Use flex to align the navigation and main content */
+}
+
+nav {
+    background-color: #41aadb; /* Medium blue for the navigation bar */
+    height:650px; /* Set height to 100% of the viewport height */
+    width: 200px; /* Set a fixed width for the navigation bar */
+    position: fixed; /* Fix the position to the left side */
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin:20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    width: 100%; /* Set the width to 100% of the parent (nav) */
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #1b81be; /* Darker blue on hover */
+}
+
+section {
+    margin: 20px;
+    margin-left: 240px;
+    background-color: #a6d2ff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; /* Allow the section to grow to fill the available space */
+}
+.project,
+.job,
+.con,
+.skills,
+.edu {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff70;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #00315b; /* Darker blue for the footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    position: fixed;
+    bottom: 0;
+    align-self: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+
+
+
+/* Other styles remain the same */
+
+h2 {
+    color: #178bcb; /* Darker blue for section headings */
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/* Add more styling as needed */
+
+
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+h1, p {
+    margin: 0;
+}
+
+
+#navbar {
+    transition: margin-left 0.3s;
+}
+
+.nav-hidden #navbar {
+    margin-left: -200px; /* Negative margin to hide the navbar */
+}
+
+#contact {
+    max-width: 100%; /* Ensure section stays within viewport */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.con-row {
+    display: flex; /* Use flexbox for flexible row layout */
+    flex-wrap: wrap; /* Allow items to wrap to next line if needed */
+    gap: 20px; /* Add gap between items for spacing */
+}
+
+.con {
+    flex: 1 1 200px; /* Flex-grow, flex-shrink, flex-basis */
+    background-color: #ffffff70; /* Background color for each contact block */
+    padding: 15px; /* Padding inside each contact block */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    text-align: center; /* Center align content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.con a {
+    display: block; /* Make anchor tags block-level for entire clickable area */
+    color: inherit; /* Inherit text color from parent */
+}
+

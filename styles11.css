@@ -1,0 +1,195 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    --color: #faa7d8;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, var(--color) 25%, transparent 25%) -50px 0,
+          linear-gradient(-45deg, var(--color) 25%, transparent 25%) -50px 0,
+          linear-gradient(45deg, transparent 75%, var(--color) 75%) -50px 0,
+          linear-gradient(-45deg, transparent 75%, var(--color) 75%) -50px 0;
+    background-color: #e5e5f7;
+    background-size: 10px 40px;
+    display: flex;
+    flex-direction: column; /* Arrange children in a column */
+}
+
+header {
+    background-color: #ffffffba; /* Darker blue for the header */
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    margin-left: 240px;
+    border: #fff 2px solid;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.Key-Achievements,
+.Description,
+.Responsibilities,
+.Duration{
+    font-weight: 600;
+}
+
+.con{
+    display: flex;
+}
+
+.con i{
+    padding-left: 4px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.525);
+    border-color: black solid;
+}
+
+.container {
+    display: flex; /* Use flex to align the navigation and main content */
+}
+
+nav {
+    background-color: #ffffff7e; /* Medium blue for the navigation bar */
+    height:650px; /* Set height to 100% of the viewport height */
+    width: 200px; /* Set a fixed width for the navigation bar */
+    position: fixed; /* Fix the position to the left side */
+    display: flex;
+    border: #fff 2px solid;
+    flex-direction: column;
+    border-radius: 8px;
+    margin:20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    width: 100%; /* Set the width to 100% of the parent (nav) */
+}
+
+nav a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ffc4e6d0; /* Darker blue on hover */
+}
+
+section {
+    margin: 20px;
+    margin-left: 240px;
+    background-color: #ffffff68;
+    padding: 20px;
+    border: #fff 2px solid;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; /* Allow the section to grow to fill the available space */
+}
+.project,
+.job,
+.con,
+.skills,
+.edu{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff70;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #fed3ec42; /* Darker blue for the footer */
+    color: #000000;
+    text-align: center;
+    border: #fff 2px solid;
+    padding: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    position: fixed;
+    bottom: 0;
+    align-self: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+
+
+
+/* Other styles remain the same */
+
+h2 {
+    color: #000000; /* Darker blue for section headings */
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/* Add more styling as needed */
+
+
+
+.profile-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+h1, p {
+    margin: 0;
+}
+
+
+#navbar {
+    transition: margin-left 0.3s;
+}
+
+.nav-hidden #navbar {
+    margin-left: -200px; /* Negative margin to hide the navbar */
+}
+
+#contact {
+    max-width: 100%; /* Ensure section stays within viewport */
+    padding: 20px; /* Add padding for spacing */
+}
+
+.con-row {
+    display: flex; /* Use flexbox for flexible row layout */
+    flex-wrap: wrap; /* Allow items to wrap to next line if needed */
+    gap: 20px; /* Add gap between items for spacing */
+}
+
+.con {
+    flex: 1 1 200px; /* Flex-grow, flex-shrink, flex-basis */
+    background-color: #ffffff70; /* Background color for each contact block */
+    padding: 15px; /* Padding inside each contact block */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    text-align: center; /* Center align content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.con a {
+    display: block; /* Make anchor tags block-level for entire clickable area */
+    color: inherit; /* Inherit text color from parent */
+}
+
