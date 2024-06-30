@@ -25,6 +25,12 @@ header {
     font-weight: 600;
 }
 
+.together {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .con{
     display: flex;
 }
